@@ -1,7 +1,12 @@
 import AppLayout from './components/AppLayout'
+import Post from './pages/Post'
 
 function App() {
-    return <AppLayout />
+    return (
+        <AppLayout>
+            <Post />
+        </AppLayout>
+    )
 }
 
 export default App
