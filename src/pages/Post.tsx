@@ -33,6 +33,7 @@ const Wrapper = styled.div`
 `
 const View = styled.section`
     width: 50%;
+    overflow-y: scroll;
 `
 
 export default Post
