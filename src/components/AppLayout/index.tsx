@@ -8,7 +8,6 @@ const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
 
 const Main = styled.main`
     height: 100%;
-    background-color: #faeaed;
 `
 
 export default AppLayout

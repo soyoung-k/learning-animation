@@ -1,10 +1,16 @@
 # Test markdown file
 
+##### This is a Heading h5
+
 # Markdown syntax guide
 
 ## Headers
 
+### This is a Heading h3
+
 # This is a Heading h1
+
+#### This is a Heading h4
 
 ## This is a Heading h2
 
@@ -53,11 +59,11 @@ You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
 
 ## Tables
 
-| Left columns | Right columns |
-| ------------ | :-----------: |
-| left foo     |   right foo   |
-| left bar     |   right bar   |
-| left baz     |   right baz   |
+| Left columns | Right columns | hello |
+| ------------ | :-----------: | ----- |
+| left foo     |   right foo   | bye   |
+| left bar     |   right bar   | good  |
+| left baz     |   right baz   | night |
 
 ## Blocks of code
 
@@ -69,4 +75,3 @@ alert(message);
 ## Inline code
 
 This web site is using `markedjs/marked`.
-
