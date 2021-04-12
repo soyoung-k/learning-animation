@@ -10,7 +10,7 @@ type PostProps = {}
 const Post: React.FC<PostProps> = ({}) => {
     const [markdown, setMarkdown] = useState(``)
     useEffect(() => {
-        const markdown = raw('../../md_files/test.md')
+        const markdown = raw('../../md_files/transition.md')
         setMarkdown(markdown)
     }, [])
 
