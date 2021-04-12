@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import raw from 'raw.macro'
 
 import MarkdownView from '../components/MarkdownView'
+import CssView from '../components/CssView'
 
 type PostProps = {}
 
@@ -19,7 +20,9 @@ const Post: React.FC<PostProps> = ({}) => {
             <View className="left_view">
                 <MarkdownView markdown={markdown} />
             </View>
-            <View>CssView</View>
+            <View>
+                <CssView markdown={markdown} />
+            </View>
         </Wrapper>
     )
 }
