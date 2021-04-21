@@ -1,10 +1,10 @@
 import AppLayout from './components/AppLayout'
-import Post from './pages/Post'
+import Home from './pages/Home'
 
 function App() {
     return (
         <AppLayout>
-            <Post />
+            <Home />
         </AppLayout>
     )
 }
